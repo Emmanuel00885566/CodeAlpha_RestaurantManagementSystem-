@@ -1,6 +1,3 @@
-// models/orderModel.js
-// Handles order data operations
-
 import orders from '../data/orderData.js';
 
 export const getAllOrders = () => {
