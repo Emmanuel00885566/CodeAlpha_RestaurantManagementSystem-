@@ -11,7 +11,6 @@ const router = express.Router();
 
 router.get('/tables', getAllTables);
 
-
 router.get('/tables/available', getAvailableTables);
 
 router.get('/tables/reservations', getAllReservations);

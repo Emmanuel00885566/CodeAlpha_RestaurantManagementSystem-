@@ -21,3 +21,10 @@ export const updateOrderStatus = (id, status) => {
   }
   return null;
 };
+
+export const deleteOrder = (id) => {
+  const index = orders.findIndex(order => order.id === parseInt(id));
+  if (index === -1) return false;
+  orders.splice(index, 1);
+  return true;
+};

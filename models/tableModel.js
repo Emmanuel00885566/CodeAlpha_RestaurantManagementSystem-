@@ -11,7 +11,6 @@ export const TableModel = {
     return tables.filter(table => table.status === 'available');
   },
 
-
   reserveTable(name, tableId, time) {
     const table = tables.find(t => t.id === tableId);
 
